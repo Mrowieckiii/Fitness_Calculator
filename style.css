@@ -44,6 +44,6 @@ body {
 
 #cel-fit {
     display: flex;
-    align-items: center; /* Wyrówna checkbox i napis idealnie w jednej linii w pionie */
-    gap: 8px;            /* Da lekki, ładny odstęp między kwadracikiem a tekstem */
+    align-items: center; 
+    gap: 8px;            
 }
