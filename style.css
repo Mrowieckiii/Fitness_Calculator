@@ -1,0 +1,49 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#main{
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+#inpt{
+    background-color: #121212;
+    color: white;
+    border: none;
+    padding: 7px;
+
+}
+
+#btnConfirm{
+  text-align: center;
+  font-family: sans-serif;
+  padding: 5px;
+  background-color: #181618;
+  color: whitesmoke;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#lab{
+    font-size: 12px;
+}
+
+#cel-fit {
+    display: flex;
+    align-items: center; /* Wyrówna checkbox i napis idealnie w jednej linii w pionie */
+    gap: 8px;            /* Da lekki, ładny odstęp między kwadracikiem a tekstem */
+}
